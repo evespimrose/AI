@@ -46,13 +46,21 @@ public:
   //set to true if there is no obstruction between the opponent and the owner, 
   //permitting a shot.
   bool        bShootable;
+
+  // 내가 얼만큼 쐈나?
+  int         iShootThatMF;
+
+  double      fTimeLastHearted;
   
+  // 맞추면 얼마나 맞췄는지 기록.
 
   MemoryRecord():fTimeLastSensed(-999),
             fTimeBecameVisible(-999),
             fTimeLastVisible(0),
             bWithinFOV(false),
-            bShootable(false)
+            bShootable(false),
+      iShootThatMF(0),
+      fTimeLastHearted(-999)
   {}
 };
 
@@ -106,6 +114,13 @@ public:
   double    GetTimeSinceLastSensed(Raven_Bot* pOpponent)const;
   double    GetTimeOpponentHasBeenOutOfView(Raven_Bot* pOpponent)const;
 
+  double    GetTimeSinceLastHearted(Raven_Bot* pOpponent) const;
+  // 상대 봇이 피해를 입었는가? 얼마나 입었는가?
+  // 봇이 피해를 입은 시간은? 필요한가 이거?
+  // 상대 봇이 피해를 입었는지 어케아나? update를 뜯어봐야하나?
+  // 상대 봇이 입은 피해를 기록하는 컨테이너가 필요.
+  //
+  
   //this method returns a list of all the opponents that have had their
   //records updated within the last m_dMemorySpan seconds.
   std::list<Raven_Bot*> GetListOfRecentlySensedOpponents()const;

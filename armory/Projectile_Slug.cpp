@@ -93,6 +93,7 @@ void Slug::TestForImpact()
   {
     //send a message to the bot to let it know it's been hit, and who the
     //shot came from
+      // 이건 상대방에게 보내는 메시지. 잘 응용해보자.
     Dispatcher->DispatchMsg(SEND_MSG_IMMEDIATELY,
                             m_iShooterID,
                             (*it)->ID(),

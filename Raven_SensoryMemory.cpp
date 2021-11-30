@@ -79,7 +79,7 @@ void Raven_SensoryMemory::UpdateWithSoundSource(Raven_Bot* pNoiseMaker)
 //  they are in the field of view. Each bot's memory record is updated
 //  accordingly
 //-----------------------------------------------------------------------------
-void Raven_SensoryMemory::UpdateVision()
+void Raven_SensoryMemory::UpdateVision()// 여기를 수정해라. 아닐수 있다?
 {
   //for each bot in the world test to see if it is visible to the owner of
   //this class
@@ -133,6 +133,8 @@ void Raven_SensoryMemory::UpdateVision()
     }
   }//next bot
 }
+
+
 
 
 //------------------------ GetListOfRecentlySensedOpponents -------------------
@@ -278,4 +280,16 @@ void  Raven_SensoryMemory::RenderBoxesAroundRecentlySensed()const
     gdi->Line(p.x-b, p.y+b, p.x-b, p.y-b);
   }
 
+}
+
+double Raven_SensoryMemory::GetTimeSinceLastHearted(Raven_Bot* pOpponent)const
+{
+    MemoryMap::const_iterator it = m_MemoryMap.find(pOpponent);
+
+    if (it != m_MemoryMap.end())
+    {
+        return Clock->GetCurrentTime() - it->second.fTimeLastHearted;
+    }
+
+    return 0;
 }
