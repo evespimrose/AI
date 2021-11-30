@@ -2,80 +2,80 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Game">
-      <UniqueIdentifier>{5afad2b9-498e-4439-9128-375f7fe152b0}</UniqueIdentifier>
+      <UniqueIdentifier>{2cc6f2f2-f755-418d-af0c-6879e9342e60}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Game\weapons &amp; projectiles">
-      <UniqueIdentifier>{f8e2454e-0aff-4086-b008-27d18960a5ae}</UniqueIdentifier>
+      <UniqueIdentifier>{0fc98977-41c3-4b68-ba63-f7cb886df760}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\weapons &amp; projectiles\weapons">
-      <UniqueIdentifier>{22f06348-dc4b-4263-a5c0-a23b95ae39a7}</UniqueIdentifier>
+      <UniqueIdentifier>{a84b01b9-76ba-4ce2-aa3e-02e26a34979e}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\weapons &amp; projectiles\projectiles">
-      <UniqueIdentifier>{fe63c6c2-a8f9-425f-898c-40a7f7b85e83}</UniqueIdentifier>
+      <UniqueIdentifier>{9384f832-6977-4caf-9ece-26efda6dd5aa}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Base entity classes">
-      <UniqueIdentifier>{98088908-5992-4a0f-a889-715c207b7589}</UniqueIdentifier>
+      <UniqueIdentifier>{6f6b018c-f413-47d8-827c-4505e77a6376}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Script related">
-      <UniqueIdentifier>{9d7b066b-6c49-4255-be55-476e8c0b6fdb}</UniqueIdentifier>
+      <UniqueIdentifier>{7d461827-8a26-409a-a383-c98a25519332}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Script related\general">
-      <UniqueIdentifier>{6ed6d6d2-b76e-4852-a496-33ada85a0557}</UniqueIdentifier>
+      <UniqueIdentifier>{75c43c4f-ed8e-436e-83db-29c823dd97fc}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Script related\lua headers">
-      <UniqueIdentifier>{7a7cdb20-9c53-48f6-b5f5-3da6359bcbc1}</UniqueIdentifier>
+      <UniqueIdentifier>{389506e8-1eff-493e-a3a6-be7ddc1b8b18}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\misc">
-      <UniqueIdentifier>{ce3a2a8a-9260-492f-81ad-1c276291884d}</UniqueIdentifier>
+      <UniqueIdentifier>{2e2f6d82-f670-40c6-8a5a-995a55900b55}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{dee236fe-e435-493e-98ba-3e69d8b817f6}</UniqueIdentifier>
+      <UniqueIdentifier>{8a461fad-8213-4318-a9e6-5c83e89701c8}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resource Files\maps">
-      <UniqueIdentifier>{f8dc09bb-f563-4eb1-9c61-ef784a3b864b}</UniqueIdentifier>
+      <UniqueIdentifier>{43e82e56-ed9f-488d-bf94-b018726b8405}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI">
-      <UniqueIdentifier>{64293b41-0c31-468f-95f4-6c7b42f3b6c1}</UniqueIdentifier>
+      <UniqueIdentifier>{daba57d8-0250-42e5-bb00-786f93023cc8}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\goals">
-      <UniqueIdentifier>{cba189c7-cf4f-4700-845a-e9a49f46d560}</UniqueIdentifier>
+      <UniqueIdentifier>{b9565adb-1140-4f7b-b257-884f5725a5e1}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\goals\composite">
-      <UniqueIdentifier>{220ba402-39ef-45f7-a966-18043685cad0}</UniqueIdentifier>
+      <UniqueIdentifier>{4ca40e3b-f181-4a43-9168-872eb8b83408}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\goals\goal evaluation">
-      <UniqueIdentifier>{89d69d3f-2c3c-487c-a08b-65218c24ade5}</UniqueIdentifier>
+      <UniqueIdentifier>{4fed5e48-57c6-4b5f-be4a-87932b0fd59b}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\goals\atomic">
-      <UniqueIdentifier>{cbb82169-9c76-4c52-a854-fac37df3738f}</UniqueIdentifier>
+      <UniqueIdentifier>{6edece73-b29e-4588-88d3-7550c1d0d680}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\fuzzy logic">
-      <UniqueIdentifier>{8617fe2c-63df-44b9-94e7-0c6b683b7f6c}</UniqueIdentifier>
+      <UniqueIdentifier>{3d81af61-253d-4e15-9d91-ae9011567bc4}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\fuzzy logic\fuzzy set types">
-      <UniqueIdentifier>{5498c68a-91a1-4c33-a69a-5a74fe4c71a5}</UniqueIdentifier>
+      <UniqueIdentifier>{f8572bc4-c762-47a5-a16f-89166fd98731}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\Movement &amp; Navigation">
-      <UniqueIdentifier>{fa7146e7-4d15-4661-878e-4d5b43c51e5f}</UniqueIdentifier>
+      <UniqueIdentifier>{4af90769-2a4a-480b-8e37-a8eca6ab8d3e}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\Messaging">
-      <UniqueIdentifier>{39179b36-0944-4aae-9447-b67aa05bdedb}</UniqueIdentifier>
+      <UniqueIdentifier>{57a54ca4-95e4-49cb-9669-dbd21cf15cb3}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\Sensory Memory">
-      <UniqueIdentifier>{d933299d-da7a-481e-8e2a-193fe04fb1a9}</UniqueIdentifier>
+      <UniqueIdentifier>{4b393640-861e-463a-a67b-4c375f21d59e}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\Triggers">
-      <UniqueIdentifier>{7127bcd3-ca8e-487c-b561-dc7983867e31}</UniqueIdentifier>
+      <UniqueIdentifier>{aa1bf293-af42-4035-bf29-a5922c3d1457}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\Weapon Handling">
-      <UniqueIdentifier>{aa836393-90bb-470b-93ea-1ee73f23ede9}</UniqueIdentifier>
+      <UniqueIdentifier>{5dc3668b-cb3a-433a-9f40-3146e97d04ec}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\Target Selection">
-      <UniqueIdentifier>{0ba96256-f21a-46a5-ad61-252d454a867a}</UniqueIdentifier>
+      <UniqueIdentifier>{4617e2b2-02ae-4366-986e-74563b9c860f}</UniqueIdentifier>
     </Filter>
     <Filter Include="Common">
-      <UniqueIdentifier>{f3f5ab42-49d8-4348-aa63-66655abd9be1}</UniqueIdentifier>
+      <UniqueIdentifier>{74b4a36e-73f0-4a21-bf2d-0a7918c560e4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -611,15 +611,17 @@
     <None Include="Params.lua">
       <Filter>Game\Script related</Filter>
     </None>
-    <None Include="note.txt">
-      <Filter>Resource Files</Filter>
-    </None>
     <None Include="maps\Raven_DM1.map">
       <Filter>Resource Files\maps</Filter>
     </None>
     <None Include="maps\Raven_DM1_Doors.map">
       <Filter>Resource Files\maps</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="note.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Script1.rc">
